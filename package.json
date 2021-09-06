@@ -1,0 +1,26 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoodLuckMister/chat-server.git"
+  },
+  "keywords": [],
+  "author": "Alexey Piskarov <paet14@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoodLuckMister/chat-server/issues"
+  },
+  "homepage": "https://github.com/GoodLuckMister/chat-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  }
+}
